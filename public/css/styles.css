@@ -1,0 +1,81 @@
+/* public/css/styles.css */
+
+.hexagon-container {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Ajusta la altura según tus necesidades */
+}
+
+.hexagon {
+    width: 120px;
+    height: 140px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /*border: 5px solid #333;*/
+}
+
+/* Posiciones específicas para cada hexágono */
+.hexagon:nth-child(1) {
+    top: 36px;
+    left: 521px;
+    background-color: #b7d607;
+    /*border: 5px solid #333;*/
+}
+
+.hexagon:nth-child(2) {
+    top: 97px;
+    left: 630px;
+    background-color: #d66807;
+}
+
+.hexagon:nth-child(3) {
+    top: 221px;
+    left: 630px;
+    background-color: #d63007;
+}
+
+.hexagon:nth-child(4) {
+    top: 160px;
+    left: 520px;
+    background-color: #d6c507ae;
+}
+
+.hexagon:nth-child(5) {
+    top: 224px;
+    left: 410px;
+    background-color: #d6d207;
+}
+
+.hexagon:nth-child(6) {
+    top: 283px;
+    left: 520px;
+    background-color: #d69b07;
+}
+
+.hexagon:nth-child(7) {
+    top: 99px;
+    left: 410px;
+    background-color: #07d649;
+}
+
+.hexagon img {
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.hexagon p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
