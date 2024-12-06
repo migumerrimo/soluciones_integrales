@@ -16,7 +16,6 @@
                 <p>INSTALACIÓN DE PORTONES ELÉCTRICOS</p>
             </div>
         </button>
-        
         <!-- Hexágono 2 -->
         <button class="hexagon" style="transform: rotate(30deg);">
             <div class="hexagon-content" style="transform: rotate(330deg);">
